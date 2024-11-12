@@ -1,0 +1,63 @@
+.card {
+  width: calc(75% - 20px);
+  height: 00px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 4px 14px -5px rgba(34, 60, 80, 0.2);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  transition-property: width, height, filter, background;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  font-size: 18px;
+  text-overflow: ellipsis;
+  width: calc(20% - 20px);
+  height: calc(20vw - 20px);
+}
+
+@media (min-width: 1121px) and (max-width: 1420px) {
+  .card {
+    width: calc(20% - 20px);
+    height: calc(20vw - 20px);
+  }
+}
+
+@media (min-width: 821px) and (max-width: 1120px) {
+  .card {
+    width: calc(25% - 20px);
+    height: calc(25vw - 20px);
+  }
+}
+
+@media (min-width: 601px) and (max-width: 820px) {
+  .card {
+    width: calc(33.33333333333% - 20px);
+    height: calc(33.33333333333vw - 20px);
+  }
+}
+
+@media (min-width: 301px) and (max-width: 600px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 0px) and (max-width: 300px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+}
+
+.card-title {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card-definition {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 16px;
+  padding-right: 15px;
+}
