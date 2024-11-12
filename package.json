@@ -21,6 +21,7 @@
     "start": "react-scripts start --port 3009",
     "build": "react-scripts build"
   },
+  "homepage": "./glossary",
   "eslintConfig": {
     "extends": [
       "react-app"
